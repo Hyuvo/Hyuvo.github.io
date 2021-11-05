@@ -1,0 +1,33 @@
+---
+title: "My awesome website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: journal
+---
+
+# This is my awesome website
+
+![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+## some content
+
+
+here's  some addition text
+
+```{r}
+rnorm(10)
+```
+
+## links
+
+link to useful tools
+
+* [Google][https://www.p8105.com/making_websites.html]
+
+## local image
+
+![](IMG_0050.JPG)
+
+## Link to a page within the site
+[some previous memo](2018/11/27/thoughts/index.html)
